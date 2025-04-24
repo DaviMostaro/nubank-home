@@ -1,6 +1,7 @@
 {
-  "name": "my-expo-app",
+  "name": "nubank-home",
   "version": "1.0.0",
+  "main": "expo-router/entry",
   "scripts": {
     "android": "expo start --android",
     "ios": "expo start --ios",
@@ -11,13 +12,18 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@expo/vector-icons": "^14.0.4",
     "expo": "^52.0.44",
+    "expo-constants": "~17.0.8",
+    "expo-linking": "~7.0.5",
+    "expo-router": "~4.0.20",
     "expo-status-bar": "~2.0.1",
     "nativewind": "latest",
     "react": "18.3.1",
     "react-native": "0.76.9",
     "react-native-reanimated": "3.16.2",
-    "react-native-safe-area-context": "4.12.0"
+    "react-native-safe-area-context": "4.12.0",
+    "react-native-screens": "~4.4.0"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
@@ -35,6 +41,5 @@
     "extends": "universe/native",
     "root": true
   },
-  "main": "node_modules/expo/AppEntry.js",
   "private": true
 }
